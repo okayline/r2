@@ -14,7 +14,7 @@
     "enabled": true
   },
   "assets": {
-    "directory": "."
+    "directory": "/page"
   },
   "compatibility_flags": [
     "nodejs_compat"
