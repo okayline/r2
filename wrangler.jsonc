@@ -1,0 +1,22 @@
+{
+
+  "r2_buckets": [
+    {
+      "binding": "bind1", // <~ valid JavaScript variable name
+      "bucket_name": "buck1"
+    }
+  ],
+ 
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "page",
+  "compatibility_date": "2026-06-18",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "."
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
